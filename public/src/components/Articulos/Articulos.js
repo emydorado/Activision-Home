@@ -15,7 +15,7 @@ class Articulos extends HTMLElement {
 	}
 
 	// Da nuevo valor a las propiedades que queremos observar
-	attributeChangeCallback(propName, oldValue, newValue) {
+	attributeChangedCallback(propName, oldValue, newValue) {
 		this[propName] = newValue;
 		this.render();
 	}
@@ -23,9 +23,15 @@ class Articulos extends HTMLElement {
 	render() {
 		this.shadowRoot.innerHTML = `
 		<link rel="stylesheet" href="./src/components/Articulos/Articulos.css">
+
+		<section id=articulo>
 		<p>${this.imagen || 'por defecto'}</p>
-		<p>${this.fecha || 'por defecto'}</p>
-		<p>${this.titulo || 'por defecto'}</p>
+		  <section id="info">
+			<p class="fecha">${this.fecha || 'por defecto'}</p>
+			<p class="titulo">${this.titulo || 'por defecto'}</p>
+			<p class="leer-mas">LEER MÁS</p>
+			</section>
+		</section>
 		`;
 	}
 }
