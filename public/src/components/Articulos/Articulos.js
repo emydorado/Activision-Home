@@ -23,7 +23,6 @@ class Articulos extends HTMLElement {
 	render() {
 		this.shadowRoot.innerHTML = `
 		<link rel="stylesheet" href="./src/components/Articulos/Articulos.css">
-
 		<section id=articulo>
 		<p>${this.imagen || 'por defecto'}</p>
 		  <section id="info">

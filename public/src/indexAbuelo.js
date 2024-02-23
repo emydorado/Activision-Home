@@ -95,38 +95,73 @@ class AppContainer extends HTMLElement {
 <button class="ver-todo">VER TODO</button>
 </section>
 
-
+<section id="separadores">
 <separador-info
     titulo="¡ESTAMOS AQUÍ PARA AYUDAR!"
     texto="Obtén respuestas a las preguntas más frecuentes, comprueba el estado del servidor y contacta con alguien experto en asistencia técnica."
     boton="VISITAR SERVICIO TÉCNICO"
-    imagen="<img src='./imagenes/separador1.jpg'/>"
+    imagen="<img src='./imagenes/separador1.jpg'/>">
 </separador-info>
+</section>
 
+<section id="comunidad">
+<h1 class="comunidad">COMUNIDAD</h1>
+<comunidad-comentarios
+
+icono="<img src='./imagenes/icono.jpeg'>"
+nombre="Raven Software"
+usuario="@RavenSoftware"
+
+texto="Time for a #Warzone community poll! Zombie Power Ups have been in Fortune's Keep over the past two weeks, which got us thinking... How would you like to see them in Urzikstan as well for the next two weeks? Please vote on one of the following options:">
+<img src="./imagenes/logox.png">
+</comunidad-comentarios>
+
+<comunidad-comentarios
+icono="<img src='./imagenes/icono.jpeg'>"
+nombre="Raven Software"
+usuario="@RavenSoftware"
+texto="Time for a #Warzone community poll! Zombie Power Ups have been in Fortune's Keep over the past two weeks, which got us thinking... How would you like to see them in Urzikstan as well for the next two weeks? Please vote on one of the following options:">
+<img src="./imagenes/logox.png">
+</comunidad-comentarios>
+
+<comunidad-comentarios
+icono="<img src='./imagenes/icono.jpeg'>"
+nombre="Raven Software"
+usuario="@RavenSoftware"
+texto="Time for a #Warzone community poll! Zombie Power Ups have been in Fortune's Keep over the past two weeks, which got us thinking... How would you like to see them in Urzikstan as well for the next two weeks? Please vote on one of the following options:">
+<img src="./imagenes/logox.png">
+</comunidad-comentarios>
+</section>
+
+<section id="separadores">
 <separador-info
     titulo="DIVIÉRTETE"
     texto="Más Información Sobre Las Oportunidades De Empleo"
     boton="ÚNETE A NOSOTROS"
-    imagen="<img src='./imagenes/separador2.jpg'/>"
+    imagen="<img src='./imagenes/separador2.jpg'/>">
 </separador-info>
+</section>
 
+<section id="infoequipos">
 		<h3>NUESTROS EQUIPOS</h3>
-		<ol>
+
+<section id="listas">
+		<ul>
 		<li>DISEÑO DE JUEGO</li>
 		<li>GRÁFICOS Y ANIMACIÓN</li>
 		<li>GESTION DE MARCA</li>
 		<li>PRODUCCIÓN</li>
 		<li>CONTROL DE CALIDAD</li>
-		</ol>
-		<ol>
+		</ul>
+		<ul>
 		<li>ASISTENCIA AL CLIENTE</li>
 		<li>OPERACIONES DEL ESTUDIO</li>
 		<li>PROGRAMACIÓN</li>
 		<li>FINANZAS Y CONTABILIDAD</li>
 		<li>RECURSOS HUMANOS</li>
-		</ol>
-
-		<h1 class="comunidad">COMUNIDAD</h1>
+		</ul>
+</section>
+</section>
   `;
 	}
 }

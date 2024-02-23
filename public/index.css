@@ -10,7 +10,7 @@
 }
 
 body {
-	background: radial-gradient(circle, #4e4e4e, #000000);
+	background: radial-gradient(circle, #343434, #000000);
 }
 
 .articulos1 {
@@ -194,8 +194,51 @@ svg:hover {
 
 .comunidad {
 	font-family: 'Gill Sans';
-	margin-top: 100px;
+	margin-top: 500px;
 	text-align: center;
 	color: white;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-weight: 600;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgb(208, 208, 208);
+	display: flex;
+	justify-content: center;
+}
+
+#infoequipos {
+	font-size: 15px;
+	font-weight: 400;
+	font-family: 'Gill Sans';
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 750px;
+	padding-top: 120px;
+	z-index: 2;
+	position: relative;
+}
+
+h3 {
+	color: white;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+#listas {
+	display: flex;
+	justify-content: flex-end;
+}
+
+ul {
+	list-style: none;
+	margin: 20px;
+	line-height: 25px;
+}
+
+#separadores {
+	z-index: 1;
+	position: absolute;
 }

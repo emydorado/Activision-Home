@@ -24,10 +24,14 @@ class Comunidad extends HTMLElement {
 		this.shadowRoot.innerHTML = `
 		<link rel="stylesheet" href="./src/components/comunidad/comunidad.css">
 
-		<p>${this.icono || 'por defecto'}</p>
+		<section id="todo">
+		<p class="icono">${this.icono || 'por defecto'}</p>
+		<section id="escrito">
 		<p class="nombre">${this.nombre || 'por defecto'}</p>
 		<p class="usuario">${this.usuario || 'por defecto'}</p>
     <p class="texto">${this.texto || 'por defecto'}</p>
+		</section>
+		</section>
 		`;
 	}
 }
