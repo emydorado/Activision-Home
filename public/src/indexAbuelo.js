@@ -15,10 +15,10 @@ class AppContainer extends HTMLElement {
 <nav id="barra">
 <img src="imagenes/activision-logo.png" height="30px"/>
   <section class="links">
-	<a>JUEGOS</a>
-	<a>ACERCA DE</a>
-	<a>TRABAJO</a>
-	<a>SOPORTE</a>
+	<a>JUEGOS <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#8e8e8e" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></a>
+	<a>ACERCA DE <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#8e8e8e" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></a>
+	<a>TRABAJO <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#8e8e8e" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></a>
+	<a>SOPORTE <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#8e8e8e" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></a>
 	</section>
 	<section id="registro">
 	<button class="registrarse">REGISTRARSE</button>
@@ -41,11 +41,13 @@ class AppContainer extends HTMLElement {
 </video>
 </header>
 
-<h1>ÚLTIMAS NOTICIAS</h1>
+<h1 class="ultimas-not">ÚLTIMAS NOTICIAS</h1>
 <nav id=secciones>
-<a>ALL NEWS</a>
-<img src="imagenes/activision-logo.png" height="20px"/>
-
+<a class="all-news">ALL NEWS</a>
+<img src="imagenes/activision-logo.png" height="25px"/>
+<img src="./imagenes/cod-logo.PNG" height="25px">
+<img src="./imagenes/tony-log.PNG" height="40px">
+<img src="./imagenes/crash-logo-mini.png" height="50px">
 </nav>
 
 <section class="articulos1">
@@ -90,7 +92,41 @@ class AppContainer extends HTMLElement {
 		Call of Duty: Mobile</em>, "Cuentos de guerra"">
 		</articulos-noticias>
 		</section>
+<button class="ver-todo">VER TODO</button>
 </section>
+
+
+<separador-info
+    titulo="¡ESTAMOS AQUÍ PARA AYUDAR!"
+    texto="Obtén respuestas a las preguntas más frecuentes, comprueba el estado del servidor y contacta con alguien experto en asistencia técnica."
+    boton="VISITAR SERVICIO TÉCNICO"
+    imagen="<img src='./imagenes/separador1.jpg'/>"
+</separador-info>
+
+<separador-info
+    titulo="DIVIÉRTETE"
+    texto="Más Información Sobre Las Oportunidades De Empleo"
+    boton="ÚNETE A NOSOTROS"
+    imagen="<img src='./imagenes/separador2.jpg'/>"
+</separador-info>
+
+		<h3>NUESTROS EQUIPOS</h3>
+		<ol>
+		<li>DISEÑO DE JUEGO</li>
+		<li>GRÁFICOS Y ANIMACIÓN</li>
+		<li>GESTION DE MARCA</li>
+		<li>PRODUCCIÓN</li>
+		<li>CONTROL DE CALIDAD</li>
+		</ol>
+		<ol>
+		<li>ASISTENCIA AL CLIENTE</li>
+		<li>OPERACIONES DEL ESTUDIO</li>
+		<li>PROGRAMACIÓN</li>
+		<li>FINANZAS Y CONTABILIDAD</li>
+		<li>RECURSOS HUMANOS</li>
+		</ol>
+
+		<h1 class="comunidad">COMUNIDAD</h1>
   `;
 	}
 }

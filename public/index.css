@@ -18,6 +18,7 @@ body {
 	justify-content: space-between;
 	margin-left: 80px;
 	margin-right: 80px;
+	margin-top: 15px;
 }
 
 .articulos2 {
@@ -71,7 +72,8 @@ body {
 
 .registrarse:hover,
 .comprar:hover,
-.visitar:hover {
+.visitar:hover,
+.ver-todo:hover {
 	border-width: 3px;
 	background-color: rgb(36, 97, 150);
 	border-color: rgb(38, 112, 177);
@@ -79,13 +81,18 @@ body {
 }
 
 a {
-	margin-right: 50px;
+	margin-right: 40px;
 	margin-left: 20px;
 	transition: color 0.3s ease;
 	cursor: pointer;
 }
 
-a:hover {
+svg {
+	color: rgb(142, 142, 142);
+}
+
+a:hover,
+svg:hover {
 	color: white;
 }
 
@@ -136,4 +143,59 @@ a:hover {
 	border-style: solid;
 	border-radius: 30px;
 	border-width: 2px;
+}
+.ultimas-not {
+	font-family: 'Gill Sans';
+	margin-top: 100px;
+	text-align: center;
+	color: white;
+	margin-bottom: 40px;
+}
+
+#secciones {
+	font-size: 20px;
+	font-family: 'Gill Sans';
+	color: white;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-top: 1px solid rgb(208, 208, 208);
+	border-bottom: 1px solid rgb(208, 208, 208);
+	cursor: pointer;
+}
+
+.all-news {
+	margin: 0;
+}
+
+.ver-todo {
+	font-size: 15px;
+	color: white;
+	font-weight: 600;
+	width: 260px;
+	height: 50px;
+	background-color: transparent;
+	border-color: white;
+	border-style: solid;
+	border-radius: 30px;
+	border-width: 2px;
+	cursor: pointer;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 590px;
+}
+
+.comunidad {
+	font-family: 'Gill Sans';
+	margin-top: 100px;
+	text-align: center;
+	color: white;
+	margin-bottom: 40px;
 }
